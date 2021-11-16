@@ -1,0 +1,18 @@
+{
+  "namespace": "cloud.demo.bcp.avrolab.avro",
+  "type": "record",
+  "name": "TransactionData",
+  "fields": [
+    {"name": "debitAccountId","type": ["null","string"]},
+    {"name": "creditAccountId","type": ["null","string"]},
+    {
+      "name":"created",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      }
+    },
+
+    {"name": "amount","type": ["null","double"]}
+  ]
+}

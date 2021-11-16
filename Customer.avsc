@@ -1,0 +1,10 @@
+{
+  "namespace": "cloud.demo.bcp.avrolab.avro",
+  "type": "record",
+  "name": "CustomerData",
+  "fields": [
+    {"name": "name","type": { "type": "string", "avro.java.string": "String" } },
+    {"name": "lastName","type": { "type": "string", "avro.java.string": "String" } },
+    {"name": "credit","type": "double"}
+  ]
+}
